@@ -20,7 +20,9 @@ Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery 
 
 ![Generator BiSARFormerGAN](./Figures/DHTCUN_architecture.PNG)
 
-![PHTCB (Parallel Hybrid Transformer CNN Block)](./Figures/PHTCB_structure.PNG)
+![LCAF (Local Cross Attention Fusion)](./Figures/PHTCB_structure.PNG)
+
+![LCAF (Discriminator BiSARFormer)](./Figures/PHTCB_structure.PNG)
 
 
 Key Highlights:
@@ -40,8 +42,9 @@ Superior Performance: Outperforms state-of-the-art SAR-to-Optical translation mo
 BiSARFormerGAN bridges SAR and optical modalities, improving the usability of SAR imagery for flood mapping, disaster response, and geospatial analysis.
 
 ## Dependencies
-* Python 3.6
-* PyTorch >= 1.0.0
+* Python 3.10.13
+* PyTorch >= 1.1.0
+* CUDA 12.2
 * numpy
 * skimage
 * **imageio**
@@ -52,11 +55,15 @@ BiSARFormerGAN bridges SAR and optical modalities, improving the usability of SA
 ## Train
 ### Prepare training data 
 
-1. Download DIV2K training data (800 training + 100 validtion images) from [DIV2K dataset](https://data.vision.ee.ethz.ch/cvl/DIV2K/) or [SNU_CVLab](https://cv.snu.ac.kr/research/EDSR/DIV2K.tar).
+1. Download DEEPFLOOD Dataset which includes co-registered Sentinel-1 SAR (VV, VH) and Sentinel-2 optical imagery, along with UAV references and auxiliary layers (NDWI, slope, DTM, flood masks). from [DEEPFLOOD dataset][(https://figshare.com/articles/dataset/DEEPFLOOD_DATASET_High-Resolution_Dataset_for_Accurate_Flood_Mappingand_Segmentation/28328339)].
 
-2. Specify '--dir_data' based on the HR and LR images path. 
+2. Use SAR_VH, SAR_VV  for Dual-Polarization input and and UAV tiles for Target Optical
 
-For more information, please refer to [HNCT(PyTorch)](https://github.com/lhjthp/HNCT).
+3. Create train, test and validation set 70%, 15% & 15%
+
+4. Specify '--dir_data' based on the images path. 
+
+For more information, please refer to [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN).
 
 ### Begin to train
 
