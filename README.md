@@ -18,11 +18,11 @@ This repository contains the implementation of BiSARFormerGAN, a dual-band SAR-t
 
 Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery that preserves fine-grained structures, improves perceptual quality, and supports reliable flood mapping and disaster response.
 
-![Generator BiSARFormerGAN](./Figures/3FIGURE.PDF)
+![Generator BiSARFormerGAN](./Figures/BiSARFormer_Generator.PNG)
 
-![LCAF (Local Cross Attention Fusion)](./Figures/2FIGURE.PDF)
+![LCAF (Local Cross Attention Fusion)](./Figures/LCAF.PNG)
 
-![LCAF (Discriminator BiSARFormer)](./Figures/9FIGURE.PDF)
+![LCAF (Discriminator BiSARFormer)](./Figures/BiSARFormer_Discriminator.PNG)
 
 
 Key Highlights:
