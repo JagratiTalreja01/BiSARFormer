@@ -25,15 +25,19 @@ Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery 
 
 Key Highlights:
 
-Parallel Hybrid Design: Combines CNNs and Transformers for long-range dependencies and noise reduction.
+Dual-Polarization Processing: Independent stems for SAR VV and VH bands, extracting complementary scattering features.
 
-Triple Enhanced Spatial Attention: Focuses on critical image features while suppressing noise.
+Local Cross-Attention Fusion (LCAF): Adaptive fusion mechanism that leverages interactions between VV and VH polarizations for richer representation.
 
-Computational Efficiency: Optimized with skip connections and pixel shuffle for reduced complexity.
+Hybrid GAN–Transformer Framework: Combines the perceptual realism of GANs with the global contextual modeling power of Transformers.
 
-DHTCUN significantly improves PSNR and SSIM scores across benchmark datasets while maintaining computational efficiency, making it ideal for applications like medical imaging, satellite imagery, and surveillance.
+SE-Gated Skip Connections: Noise-aware skip links that selectively pass useful features while suppressing SAR-induced artifacts.
 
-Deep Hybrid Transformer CNN U Network for Single Image Super Resolution.
+Efficient and Stable Training: Incorporates Residual Swin Transformer Blocks and multi-loss optimization (L1, SSIM, perceptual, adversarial) for balanced realism and accuracy.
+
+Superior Performance: Outperforms state-of-the-art SAR-to-Optical translation models on the DeepFlood dataset in PSNR, SSIM, and LPIPS, while producing interpretable optical-like outputs for real flood events.
+
+BiSARFormerGAN bridges SAR and optical modalities, improving the usability of SAR imagery for flood mapping, disaster response, and geospatial analysis.
 
 ## Dependencies
 * Python 3.6
