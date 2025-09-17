@@ -1,4 +1,4 @@
-# BiSARFormer
+# BiSARFormerGAN: Dual-Band SAR-to-Optical Translation via Transformer-Enhanced GAN
 BiSARFormer is a deep learning framework for translating Synthetic Aperture Radar (SAR) imagery into perceptually realistic optical imagery using dual polarization inputs (VV &amp; VH) via local cross-attention fusion, and a Transformer-based generator within a GAN setup to capture complementary scattering patterns. 
 
 
@@ -18,7 +18,7 @@ This repository contains the implementation of BiSARFormerGAN, a dual-band SAR-t
 
 Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery that preserves fine-grained structures, improves perceptual quality, and supports reliable flood mapping and disaster response.
 
-![Generator BiSAR Former](./Figures/DHTCUN_architecture.PNG)
+![Generator BiSARFormerGAN](./Figures/DHTCUN_architecture.PNG)
 
 ![PHTCB (Parallel Hybrid Transformer CNN Block)](./Figures/PHTCB_structure.PNG)
 
