@@ -55,7 +55,7 @@ BiSARFormerGAN bridges SAR and optical modalities, improving the usability of SA
 ## Train
 ### Prepare training data 
 
-1. Download DEEPFLOOD Dataset which includes co-registered Sentinel-1 SAR (VV, VH) and Sentinel-2 optical imagery, along with UAV references and auxiliary layers (NDWI, slope, DTM, flood masks). from [DEEPFLOOD dataset][(https://figshare.com/articles/dataset/DEEPFLOOD_DATASET_High-Resolution_Dataset_for_Accurate_Flood_Mappingand_Segmentation/28328339)].
+1. Download DEEPFLOOD Dataset which includes co-registered Sentinel-1 SAR (VV, VH) and Sentinel-2 optical imagery, along with UAV references and auxiliary layers (NDWI, slope, DTM, flood masks). from [DEEPFLOOD dataset](https://figshare.com/articles/dataset/DEEPFLOOD_DATASET_High-Resolution_Dataset_for_Accurate_Flood_Mappingand_Segmentation/28328339).
 
 2. Use SAR_VH, SAR_VV  for Dual-Polarization input and and UAV tiles for Target Optical
 
