@@ -9,8 +9,7 @@ The code is built on [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN) and t
 3. [Train](#train)
 4. [Test](#test)
 5. [Results](#results)
-6. [Citation](#citation)
-7. [Acknowledgements](#acknowledgements)
+6. [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
