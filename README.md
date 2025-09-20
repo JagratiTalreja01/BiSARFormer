@@ -2,7 +2,7 @@
 BiSARFormer is a deep learning framework for translating Synthetic Aperture Radar (SAR) imagery into perceptually realistic optical imagery using dual polarization inputs (VV &amp; VH) via local cross-attention fusion, and a Transformer-based generator within a GAN setup to capture complementary scattering patterns. 
 
 
-The code is built on [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN) and tested on Ubuntu 20.04.6 environment (Python3.10.13, PyTorch >= 1.1.0) with NVIDIA RTX A4000 with 16GB RAM. 
+The code is built on [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN) and tested on Ubuntu 20.04.6 environment (Python 3.10.13, PyTorch >= 1.1.0) with NVIDIA RTX A4000 with 16GB RAM. 
 ## Contents
 1. [Introduction](#introduction)
 2. [Dependencies](#dependencies)
@@ -55,13 +55,13 @@ BiSARFormerGAN bridges SAR and optical modalities, improving the usability of SA
 ## Train
 ### Prepare training data 
 
-1. Download DEEPFLOOD Dataset which includes co-registered Sentinel-1 SAR (VV, VH) and Sentinel-2 optical imagery, along with UAV references and auxiliary layers (NDWI, slope, DTM, flood masks). from [DEEPFLOOD dataset](https://figshare.com/articles/dataset/DEEPFLOOD_DATASET_High-Resolution_Dataset_for_Accurate_Flood_Mappingand_Segmentation/28328339).
+1. Download DEEPFLOOD Dataset, which includes co-registered Sentinel-1 SAR (VV, VH) and Sentinel-2 optical imagery, along with UAV references and auxiliary layers (NDWI, slope, DTM, flood masks). from [DEEPFLOOD dataset](https://figshare.com/articles/dataset/DEEPFLOOD_DATASET_High-Resolution_Dataset_for_Accurate_Flood_Mappingand_Segmentation/28328339).
 
-2. Use SAR_VH, SAR_VV  for Dual-Polarization input and and UAV tiles for Target Optical
+2. Use SAR_VH, SAR_VV  for Dual-Polarization input and UAV tiles for Target Optical
 
-3. Create train, test and validation set 70%, 15% & 15%
+3. Create train, test and validation sets 70%, 15% & 15%
 
-4. Specify '--dir_data' based on the images path. 
+4. Specify '--dir_data' based on the image's path. 
 
 For more information, please refer to [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN).
 
