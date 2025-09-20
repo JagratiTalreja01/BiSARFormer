@@ -5,11 +5,12 @@ BiSARFormer is a deep learning framework for translating Synthetic Aperture Rada
 The code is built on [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN) and tested on Ubuntu 20.04.6 environment (Python 3.10.13, PyTorch >= 1.1.0) with NVIDIA RTX A4000 with 16GB RAM. 
 ## Contents
 1. [Introduction](#introduction)
-2. [Dependencies](#dependencies)
-3. [Train](#train)
-4. [Test](#test)
-5. [Results](#results)
-6. [Acknowledgements](#acknowledgements)
+2. [Key Highlights](#keyhighlights)
+3. [Dependencies](#dependencies)
+4. [Train](#train)
+5. [Test](#test)
+6. [Results](#results)
+7. [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
@@ -24,7 +25,7 @@ Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery 
 ![LCAF (Discriminator BiSARFormer)](./Figures/BiSARFormer_Discriminator.PNG)
 
 
-Key Highlights:
+## Key Highlights:
 
 Dual-Polarization Processing: Independent stems for SAR VV and VH bands, extracting complementary scattering features.
 
