@@ -119,7 +119,7 @@ Cd to 'src', run the following scripts.
 
 ![Loss Convergence](./Figures/Loss_Convergence.PNG)
 
-![NDWI_Comparisons](./Figures/NDWI_Compariosns.PNG)
+![NDWI_Comparisons](./Figures/NDWI_Comparisons.PNG)
 
 ![LPIPS_Comparisons](./Figures/LPIPS_Comparison.PNG)
 
