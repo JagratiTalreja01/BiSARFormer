@@ -102,15 +102,15 @@ Cd to 'src', run the following scripts.
 
 ![Elizabeth Florence](./Figures/Elizabeth_Florence.PNG)
 
-![Grifton Matthew](./Figures/BSDx8.PNG)
+![Grifton Matthew](./Figures/Grifton_Matthew.PNG)
 
-![Princeville Florence](./Figures/Urbanx8.PNG)
+![Princeville Florence](./Figures/Princeville_Matthew.PNG)
 
-![Kinston Matthew](./Figures/Mangax8.PNG)
+![Kinston Matthew](./Figures/Kinston_Matthew.PNG)
 
-![Lumberton Florence](./Figures/Mangax8.PNG)
+![Lumberton Florence](./Figures/Lumberton_Florence.PNG)
 
-![Washington Florence](./Figures/Mangax8.PNG)
+![Washington Florence](./Figures/Washington_Florence.PNG)
 
 ### Quantitative Results
 
