@@ -100,7 +100,7 @@ Cd to 'src', run the following scripts.
 ## Results
 ### Visual Patches
 
-![Elizabeth Florence](./Figures/Urbanx4.PNG)
+![Elizabeth Florence](./Figures/Elizabeth_Florence.PNG)
 
 ![Grifton Matthew](./Figures/BSDx8.PNG)
 
