@@ -69,26 +69,33 @@ For more information, please refer to [MT_GAN (PyTorch)](https://github.com/NUAA
 
 Cd to 'src', run the following script to train models.
 
- **Example command is in the file 'demo.sh'.**
+ **Use the train.py file in the src folder to begin training of the model**
 
     ```bash
-    # Example X2 SR
-    python main.py --dir_data ../../Dataset/ --n_GPUs 1 --rgb_range 1 --chunk_size 144 --n_hashes 4 --save_models --lr 1e-4 --decay 200-400-600-800 --epochs 300 --chop --save_results --n_resblocks 32 --n_feats 256 --res_scale 0.1 --batch_size 16 --model dhtcun --scale 2 --patch_size 96 --save DHTCUN_x2 --data_train DIV2K
+    # Example Training
+    python train.py 
     ```
 ## Test
 ### Quick start
-1. Download benchmark datasets from [SNU_CVLab](https://cv.snu.ac.kr/research/EDSR/benchmark.tar)
+1. Download DEEPFLOOD DATASET from [GEMS Lab](https://figshare.com/articles/dataset/DEEPFLOOD_DATASET_High-Resolution_Dataset_for_Accurate_Flood_Mappingand_Segmentation/28328339) and split the dataset into 70% train, 15% validation, & 15% test set.
 
 
 Cd to 'src', run the following scripts.
 
- **Example command is in the file 'demo.sh'.**
+ **Use the validation.py file in the src folder to begin training of the model**
+ **Use the test.py file in the src folder to begin training of the model**
 
     ```bash
     
-    # Example X2 SR
-    python main.py --dir_data ../../ --model dhtcun  --chunk_size 144 --data_test Set5+Set14+B100+Urban100+Manga109 --n_hashes 4 --chop --save_results --rgb_range 1 --data_range 801-900 --scale 2 --n_feats 256 --n_resblocks 32 --res_scale 0.1  --pre_train model_x2.pt --test_only 
+    # Example for Validation set
+    python validation.py  
     ```
+    ```bash
+    
+    # Example for Test set
+    python test.py  
+    ```
+
 
 ## Results
 ### Visual Patches
