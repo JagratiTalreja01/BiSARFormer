@@ -100,13 +100,17 @@ Cd to 'src', run the following scripts.
 ## Results
 ### Visual Patches
 
-![Urban100x4](./Figures/Urbanx4.PNG)
+![Elizabeth Florence](./Figures/Urbanx4.PNG)
 
-![BSD100x8](./Figures/BSDx8.PNG)
+![Grifton Matthew](./Figures/BSDx8.PNG)
 
-![Urnan100x8](./Figures/Urbanx8.PNG)
+![Princeville Florence](./Figures/Urbanx8.PNG)
 
-![Manga109x8](./Figures/Mangax8.PNG)
+![Kinston Matthew](./Figures/Mangax8.PNG)
+
+![Lumberton Florence](./Figures/Mangax8.PNG)
+
+![Washington Florence](./Figures/Mangax8.PNG)
 
 ### Quantitative Results
 
