@@ -125,23 +125,5 @@ Cd to 'src', run the following scripts.
 ![LPIPS_Comparisons](./Figures/LPIPS_Comparison.PNG)
 
 
-For more Quantitative Results please read the paper [[Link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10648606&tag=1)
-
-## Citation
-If you find the code helpful in your research or work, please cite the following papers.
-```
-@ARTICLE{10648606,
-  author={Talreja, Jagrati and Aramvith, Supavadee and Onoye, Takao},
-  journal={IEEE Access}, 
-  title={DHTCUN: Deep Hybrid Transformer CNN U Network for Single-Image Super-Resolution}, 
-  year={2024},
-  volume={12},
-  number={},
-  pages={122624-122641},
-  keywords={Transformers;Superresolution;Convolutional neural networks;Noise measurement;Computational modeling;Noise measurement;Image reconstruction;CNN;enhanced spatial attention;single-image super-resolution;Transformer},
-  doi={10.1109/ACCESS.2024.3450300}}
-
-```
-
 ## Acknowledgements
-This code is built on [HNCT (PyTorch)](https://github.com/lhjthp/HNCT/tree/main) and [EDSR-PyTorch](https://github.com/thstkdgus35/EDSR-PyTorch). We thank the authors for sharing their codes.
+This code is built on [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN/tree/main) and [CycleGAN-PyTorch](https://junyanz.github.io/CycleGAN/). We thank the authors for sharing their codes.
