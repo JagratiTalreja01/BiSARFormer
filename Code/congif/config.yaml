@@ -1,0 +1,44 @@
+# configs/config.yaml
+
+dataset:
+  train_dir: "./data/train"
+  val_dir: "./data/val"
+  test_dir: "./data/test"
+
+paths:
+  train_dir: data/train
+  val_dir: data/val
+  test_dir: data/test
+  checkpoint_dir: checkpoints
+  log_dir: logs
+  outputs: outputs
+
+model:
+  generator_path: "./models/generator.py"
+  discriminator_path: "./models/discriminator.py"
+  checkpoint_dir: "./checkpoints"
+
+training:
+  epochs: 200
+  batch_size: 1
+  lr: 0.0002
+  log_interval: 10   
+  beta1: 0.5
+  beta2: 0.999
+  lambda_l1: 100          # Weight for L1 loss
+  lambda_adv: 1           # Weight for adversarial loss
+
+logging:
+  log_dir: "./logs"
+  print_freq: 50
+  save_freq: 5            # Save model every N epochs
+
+output:
+  image_dir: "./outputs"
+  sample_interval: 100    # Save sample outputs every N batches
+
+hardware:
+  device: "cuda"  # or "cpu"
+
+
+
