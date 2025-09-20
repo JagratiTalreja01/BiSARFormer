@@ -27,19 +27,19 @@ Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery 
 
 ## Key Highlights:
 
-Dual-Polarization Processing: Independent stems for SAR VV and VH bands, extracting complementary scattering features.
+ * Dual-Polarization Processing: Independent stems for SAR VV and VH bands, extracting complementary scattering features.
 
-Local Cross-Attention Fusion (LCAF): Adaptive fusion mechanism that leverages interactions between VV and VH polarizations for richer representation.
+ * Local Cross-Attention Fusion (LCAF): Adaptive fusion mechanism that leverages interactions between VV and VH polarizations for richer representation.
 
-Hybrid GAN–Transformer Framework: Combines the perceptual realism of GANs with the global contextual modeling power of Transformers.
+ * Hybrid GAN–Transformer Framework: Combines the perceptual realism of GANs with the global contextual modeling power of Transformers.
 
-SE-Gated Skip Connections: Noise-aware skip links that selectively pass useful features while suppressing SAR-induced artifacts.
+ * SE-Gated Skip Connections: Noise-aware skip links that selectively pass useful features while suppressing SAR-induced artifacts.
 
-Efficient and Stable Training: Incorporates Residual Swin Transformer Blocks and multi-loss optimization (L1, SSIM, perceptual, adversarial) for balanced realism and accuracy.
+ * Efficient and Stable Training: Incorporates Residual Swin Transformer Blocks and multi-loss optimization (L1, SSIM, perceptual, adversarial) for balanced realism and accuracy.
 
-Superior Performance: Outperforms state-of-the-art SAR-to-Optical translation models on the DeepFlood dataset in PSNR, SSIM, and LPIPS, while producing interpretable optical-like outputs for real flood events.
+ * Superior Performance: Outperforms state-of-the-art SAR-to-Optical translation models on the DeepFlood dataset in PSNR, SSIM, and LPIPS, while producing interpretable optical-like outputs for real flood events.
 
-BiSARFormerGAN bridges SAR and optical modalities, improving the usability of SAR imagery for flood mapping, disaster response, and geospatial analysis.
+ * BiSARFormerGAN bridges SAR and optical modalities, improving the usability of SAR imagery for flood mapping, disaster response, and geospatial analysis.
 
 ## Dependencies
 * Python 3.10.13
