@@ -114,17 +114,16 @@ Cd to 'src', run the following scripts.
 
 ### Quantitative Results
 
-![Number of Parameters](./Figures/Parameters.PNG)
+![Number of Parameters](./Figures/Number_of_Params.PNG)
 
-![Execution Time](./Figures/Execution_Time.PNG)
+![PSNR Convergence](./Figures/PSNR_Convergence.PNG)
 
-![Space Complexity](./Figures/Space_complexity.PNG)
+![Loss Convergence](./Figures/Loss_Convergence.PNG)
 
-![Time Complexity](./Figures/Time_complexity.PNG)
+![NDWI_Comparisons](./Figures/NDWI_Compariosns.PNG)
 
-![Multi-Adds](./Figures/Multi-Addds.PNG)
+![LPIPS_Comparisons](./Figures/LPIPS_Comparison.PNG)
 
-![PSNR Convergence](./Figures/Convergence.PNG)
 
 For more Quantitative Results please read the paper [[Link]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10648606&tag=1)
 
