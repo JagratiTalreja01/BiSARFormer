@@ -18,7 +18,7 @@ This repository contains the implementation of D-PolTransGAN:, a dual-band SAR-t
 
 Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery that preserves fine-grained structures, improves perceptual quality, and supports reliable flood mapping and disaster response.
 
-![Generator BiSARFormerGAN](./Figures/BiSARFormer_Generator.PNG)
+![Generator BiSARFormerGAN](./Figures/Generator.PNG)
 
 ![SGAF (Scattering Guided Attention Fusion)](./Figures/SGAF.png)
 
