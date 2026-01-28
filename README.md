@@ -114,7 +114,7 @@ Cd to 'src', run the following scripts.
 
 ### Quantitative Results
 
-![Number of Parameters](./Figures/Number_of_Params.PNG)
+![Number of Parameters](./Figures/PSNR_Parameter.PNG)
 
 ![PSNR Convergence](./Figures/PSNR_Convergence.PNG)
 
@@ -122,7 +122,7 @@ Cd to 'src', run the following scripts.
 
 ![NDWI_Comparisons](./Figures/NDWI_Comparisons.PNG)
 
-![LPIPS_Comparisons](./Figures/LPIPS_Comparison.PNG)
+![LPIPS_Comparisons](./Figures/LPIPS_Comparisons.PNG)
 
 
 ## Acknowledgements
