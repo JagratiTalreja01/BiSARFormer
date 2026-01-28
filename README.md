@@ -20,7 +20,7 @@ Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery 
 
 ![Generator BiSARFormerGAN](./Figures/BiSARFormer_Generator.PNG)
 
-![LCAF (Local Cross Attention Fusion)](./Figures/LCAF.PNG)
+![SGAF (Scattering Guided Attention Fusion)](./Figures/SGAF.PNG)
 
 ![LCAF (Discriminator BiSARFormer)](./Figures/BiSARFormer_Discriminator.PNG)
 
