@@ -14,7 +14,7 @@ The code is built on [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN) and t
 
 ## Introduction
 
-This repository contains the implementation of BiSARFormerGAN, a dual-band SAR-to-Optical translation framework designed for flood assessment. The architecture introduces dual-stem processing for Sentinel-1 VV and VH polarizations, followed by Local Cross-Attention Fusion (LCAF) to exploit their complementary scattering properties. To balance local spatial detail and global contextual modeling, the network integrates CNN backbones with Transformer modules inside a GAN framework, enhanced by SE-gated skip connections.
+This repository contains the implementation of BiSARFormerGAN, a dual-band SAR-to-Optical translation framework designed for flood assessment. The architecture introduces dual-stem processing for Sentinel-1 VV and VH polarizations, followed by Scattering-Guided Attention Fusion (SGAF) to exploit their complementary scattering properties. To balance local spatial detail and global contextual modeling, the network integrates CNN backbones with Transformer modules inside a GAN framework, enhanced by SE-gated skip connections.
 
 Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery that preserves fine-grained structures, improves perceptual quality, and supports reliable flood mapping and disaster response.
 
@@ -55,13 +55,15 @@ Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery 
 ## Train
 ### Prepare training data 
 
-1. Download DEEPFLOOD Dataset, which includes co-registered Sentinel-1 SAR (VV, VH) and Sentinel-2 optical imagery, along with UAV references and auxiliary layers (NDWI, slope, DTM, flood masks). from [DEEPFLOOD dataset](https://figshare.com/articles/dataset/DEEPFLOOD_DATASET_High-Resolution_Dataset_for_Accurate_Flood_Mappingand_Segmentation/28328339).
+1. Download DEEPFLOOD Dataset, from [DEEPFLOOD dataset](https://figshare.com/articles/dataset/DEEPFLOOD_DATASET_High-Resolution_Dataset_for_Accurate_Flood_Mappingand_Segmentation/28328339).
+2. Download SEN1FLOODS11 Dataset from [SEN1FLOODS11 dataset](https://github.com/cloudtostreet/Sen1Floods11)
+3. Download SEN12MS Dataset from [SEN12MS dataset](https://mediatum.ub.tum.de/1474000) 
 
-2. Use SAR_VH, SAR_VV  for Dual-Polarization input and UAV tiles for Target Optical
+4. Use SAR_VH, SAR_VV  for Dual-Polarization input and UAV tiles for Target Optical
 
-3. Create train, test and validation sets 70%, 15% & 15%
+5. Create train, test and validation sets 70%, 15% & 15%
 
-4. Specify '--dir_data' based on the image's path. 
+6. Specify '--dir_data' based on the image's path. 
 
 For more information, please refer to [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN).
 
