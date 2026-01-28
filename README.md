@@ -1,5 +1,5 @@
-# Transformer-Enhanced GAN for Dual-Polarization SAR-to-Optical Translation: BiSARFormerGAN 
-BiSARFormer is a deep learning framework for translating Synthetic Aperture Radar (SAR) imagery into perceptually realistic optical imagery using dual polarization inputs (VV &amp; VH) via local cross-attention fusion, and a Transformer-based generator within a GAN setup to capture complementary scattering patterns. 
+# D-PolTransGAN: Scattering Guided Hybrid Transformer-GAN for SAR-Optical Image Translation using Dual Polarization SAR  
+D-PolTransGAN is a deep learning framework for translating Synthetic Aperture Radar (SAR) imagery into perceptually realistic optical imagery using dual polarization inputs (VV &amp; VH) via local cross-attention fusion, and a Transformer-based generator within a GAN setup to capture complementary scattering patterns. 
 
 
 The code is built on [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN) and tested on Ubuntu 20.04.6 environment (Python 3.10.13, PyTorch >= 1.1.0) with NVIDIA RTX A4000 with 16GB RAM. 
@@ -14,7 +14,7 @@ The code is built on [MT_GAN (PyTorch)](https://github.com/NUAA-RS/MT_GAN) and t
 
 ## Introduction
 
-This repository contains the implementation of BiSARFormerGAN, a dual-band SAR-to-Optical translation framework designed for flood assessment. The architecture introduces dual-stem processing for Sentinel-1 VV and VH polarizations, followed by Scattering-Guided Attention Fusion (SGAF) to exploit their complementary scattering properties. To balance local spatial detail and global contextual modeling, the network integrates CNN backbones with Transformer modules inside a GAN framework, enhanced by SE-gated skip connections.
+This repository contains the implementation of D-PolTransGAN:, a dual-band SAR-to-Optical translation framework designed for flood assessment. The architecture introduces dual-stem processing for Sentinel-1 VV and VH polarizations, followed by Scattering-Guided Attention Fusion (SGAF) to exploit their complementary scattering properties. To balance local spatial detail and global contextual modeling, the network integrates CNN backbones with Transformer modules inside a GAN framework, enhanced by SE-gated skip connections.
 
 Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery that preserves fine-grained structures, improves perceptual quality, and supports reliable flood mapping and disaster response.
 
@@ -39,7 +39,7 @@ Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery 
 
  * Superior Performance: Outperforms state-of-the-art SAR-to-Optical translation models on the DeepFlood dataset in PSNR, SSIM, and LPIPS, while producing interpretable optical-like outputs for real flood events.
 
- * BiSARFormerGAN bridges SAR and optical modalities, improving the usability of SAR imagery for flood mapping, disaster response, and geospatial analysis.
+ * D-PolTransGAN bridges SAR and optical modalities, improving the usability of SAR imagery for flood mapping, disaster response, and geospatial analysis.
 
 ## Dependencies
 * Python 3.10.13
