@@ -102,17 +102,15 @@ Cd to 'src', run the following scripts.
 ## Results
 ### Visual Patches
 
-![Validation DEEPFLOOD](./Figures/Elizabeth_Florence.PNG)
+![Validation DEEPFLOOD](./Figures/DEEPFLOOD_Validation_1.PNG)
 
-![Validation DEEPFLOOD](./Figures/Grifton_Matthew.PNG)
+![Validation DEEPFLOOD](./Figures/DEEPFLOOD_Validation_2.PNG)
 
-![Validation DEEPFLOOD](./Figures/Princeville_Matthew.PNG)
+![Test DEEPFLOOD](./Figures/DEEPFLOOD_Test_1.PNG)
 
-![Test DEEPFLOOD](./Figures/Kinston_Matthew.PNG)
+![Test SEN1FLOODS11](./Figures/SEN1FLOODS11_Test_1.PNG)
 
-![Test SEN1FLOODS11](./Figures/Lumberton_Florence.PNG)
-
-![Test SEN12MS](./Figures/Washington_Florence.PNG)
+![Test SEN12MS](./Figures/SEN12MS_Test_1.PNG)
 
 ### Quantitative Results
 
