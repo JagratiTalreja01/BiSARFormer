@@ -29,7 +29,7 @@ Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery 
 
  * Dual-Polarization Processing: Independent stems for SAR VV and VH bands, extracting complementary scattering features.
 
- * Local Cross-Attention Fusion (LCAF): Adaptive fusion mechanism that leverages interactions between VV and VH polarizations for richer representation.
+ * Scattering-Guided Attention Fusion (SGAF): Adaptive fusion mechanism that leverages interactions between VV and VH polarizations for richer representation.
 
  * Hybrid GAN–Transformer Framework: Combines the perceptual realism of GANs with the global contextual modeling power of Transformers.
 
@@ -100,17 +100,17 @@ Cd to 'src', run the following scripts.
 ## Results
 ### Visual Patches
 
-![Elizabeth Florence](./Figures/Elizabeth_Florence.PNG)
+![Validation DEEPFLOOD](./Figures/Elizabeth_Florence.PNG)
 
-![Grifton Matthew](./Figures/Grifton_Matthew.PNG)
+![Validation DEEPFLOOD](./Figures/Grifton_Matthew.PNG)
 
-![Princeville Florence](./Figures/Princeville_Matthew.PNG)
+![Validation DEEPFLOOD](./Figures/Princeville_Matthew.PNG)
 
-![Kinston Matthew](./Figures/Kinston_Matthew.PNG)
+![Test DEEPFLOOD](./Figures/Kinston_Matthew.PNG)
 
-![Lumberton Florence](./Figures/Lumberton_Florence.PNG)
+![Test SEN1FLOODS11](./Figures/Lumberton_Florence.PNG)
 
-![Washington Florence](./Figures/Washington_Florence.PNG)
+![Test SEN12MS](./Figures/Washington_Florence.PNG)
 
 ### Quantitative Results
 
