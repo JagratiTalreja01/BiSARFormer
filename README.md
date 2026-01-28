@@ -114,7 +114,7 @@ Cd to 'src', run the following scripts.
 
 ### Quantitative Results
 
-![Number of Parameters](./Figures/PSNR_Parameter.PNG)
+![Number of Parameters](./Figures/PSNR_Parameters.PNG)
 
 ![PSNR Convergence](./Figures/PSNR_Convergence.PNG)
 
