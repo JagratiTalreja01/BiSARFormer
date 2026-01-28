@@ -22,7 +22,7 @@ Trained on the DeepFlood dataset, BiSARFormerGAN generates optical-like imagery 
 
 ![SGAF (Scattering Guided Attention Fusion)](./Figures/SGAF.png)
 
-![LCAF (Discriminator BiSARFormer)](./Figures/BiSARFormer_Discriminator.PNG)
+![LCAF (Discriminator BiSARFormer)](./Figures/Discriminator.PNG)
 
 
 ## Key Highlights:
